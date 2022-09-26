@@ -115,7 +115,8 @@ int main(void)
 	  HAL_Delay(1000);
 	  display7SEG(1);
 	  HAL_Delay(1000);
-
+	  display7SEG(0);
+	  HAL_Delay(500);
 
 	  //Next state
 	  HAL_GPIO_WritePin (green1_GPIO_Port , green1_Pin, GPIO_PIN_RESET);
@@ -134,7 +135,8 @@ int main(void)
 	  HAL_Delay(1000);
 	  display7SEG(1);
 	  HAL_Delay(1000);
-
+	  display7SEG(0);
+	  HAL_Delay(500);
 
 	  //Next State
 	  HAL_GPIO_WritePin (green1_GPIO_Port , green1_Pin, GPIO_PIN_SET); //green 1 on
