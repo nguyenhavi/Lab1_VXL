@@ -667,3 +667,35 @@
 2022-09-26 11:11:00,302 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 6459mS.
 2022-09-26 11:11:00,309 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 4mS.
 2022-09-26 11:11:00,311 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2022-09-26 11:20:23,489 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 844342792 Bytes (1073741824)
+2022-09-26 11:20:25,023 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 864730880 Bytes (1073741824)
+2022-09-26 11:20:27,358 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 675629760 Bytes (1073741824)
+2022-09-26 11:20:28,221 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-09-26 11:20:28,222 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-09-26 11:20:28,223 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-09-26 11:20:28,223 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-09-26 11:20:28,227 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2022-09-26 11:20:28,719 [INFO] CodeEngine:239 - oldGeneratedFile, D:\VXLLab1\Lab\MXTmpFiles\license.tmp_save
+2022-09-26 11:20:28,939 [INFO] CodeEngine:257 - Generated code: D:\VXLLab1\Lab\MXTmpFiles\license.tmp
+2022-09-26 11:20:29,008 [INFO] CodeEngine:239 - oldGeneratedFile, D:\VXLLab1\Lab\MXTmpFiles\gpio.tmp_save
+2022-09-26 11:20:29,261 [INFO] CodeEngine:257 - Generated code: D:\VXLLab1\Lab\MXTmpFiles\gpio.tmp
+2022-09-26 11:20:29,373 [INFO] CodeEngine:239 - oldGeneratedFile, D:\VXLLab1\Lab\Core\Src\stm32f1xx_it.c_save
+2022-09-26 11:20:29,496 [INFO] CodeEngine:257 - Generated code: D:\VXLLab1\Lab\Core\Src\stm32f1xx_it.c
+2022-09-26 11:20:29,506 [INFO] CodeEngine:239 - oldGeneratedFile, D:\VXLLab1\Lab\Core\Inc\stm32f1xx_it.h_save
+2022-09-26 11:20:29,592 [INFO] CodeEngine:257 - Generated code: D:\VXLLab1\Lab\Core\Inc\stm32f1xx_it.h
+2022-09-26 11:20:29,631 [INFO] CodeEngine:239 - oldGeneratedFile, D:\VXLLab1\Lab\Core\Src\stm32f1xx_hal_msp.c_save
+2022-09-26 11:20:29,778 [INFO] CodeEngine:257 - Generated code: D:\VXLLab1\Lab\Core\Src\stm32f1xx_hal_msp.c
+2022-09-26 11:20:29,783 [INFO] CodeEngine:239 - oldGeneratedFile, D:\VXLLab1\Lab\MXTmpFiles\system.tmp_save
+2022-09-26 11:20:30,527 [INFO] CodeEngine:257 - Generated code: D:\VXLLab1\Lab\MXTmpFiles\system.tmp
+2022-09-26 11:20:30,579 [INFO] CodeEngine:239 - oldGeneratedFile, D:\VXLLab1\Lab\Core\Inc\stm32f1xx_hal_conf.h_save
+2022-09-26 11:20:31,066 [INFO] CodeEngine:257 - Generated code: D:\VXLLab1\Lab\Core\Inc\stm32f1xx_hal_conf.h
+2022-09-26 11:20:31,169 [INFO] CodeEngine:239 - oldGeneratedFile, D:\VXLLab1\Lab\Core\Inc\main.h_save
+2022-09-26 11:20:31,331 [INFO] CodeEngine:257 - Generated code: D:\VXLLab1\Lab\Core\Inc\main.h
+2022-09-26 11:20:31,377 [INFO] CodeEngine:239 - oldGeneratedFile, D:\VXLLab1\Lab\Core\Src\main.c_save
+2022-09-26 11:20:31,592 [INFO] CodeEngine:257 - Generated code: D:\VXLLab1\Lab\Core\Src\main.c
+2022-09-26 11:20:34,118 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 643mS.
+2022-09-26 11:20:34,129 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2022-09-26 11:20:35,152 [INFO] ConfigFileManager:1271 - The Die is : DIE412
+2022-09-26 11:20:40,606 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 6477mS.
+2022-09-26 11:20:40,608 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 1mS.
+2022-09-26 11:20:40,609 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
