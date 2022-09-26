@@ -58,44 +58,30 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define red1_Pin GPIO_PIN_2
-#define red1_GPIO_Port GPIOA
-#define green1_Pin GPIO_PIN_3
-#define green1_GPIO_Port GPIOA
-#define yellow1_Pin GPIO_PIN_4
-#define yellow1_GPIO_Port GPIOA
-#define red2_Pin GPIO_PIN_5
-#define red2_GPIO_Port GPIOA
-#define green2_Pin GPIO_PIN_6
-#define green2_GPIO_Port GPIOA
-#define yellow2_Pin GPIO_PIN_7
-#define yellow2_GPIO_Port GPIOA
-#define a_Pin GPIO_PIN_0
-#define a_GPIO_Port GPIOB
-#define b_Pin GPIO_PIN_1
-#define b_GPIO_Port GPIOB
-#define c_Pin GPIO_PIN_2
-#define c_GPIO_Port GPIOB
-#define red3_Pin GPIO_PIN_8
-#define red3_GPIO_Port GPIOA
-#define green3_Pin GPIO_PIN_9
-#define green3_GPIO_Port GPIOA
-#define yellow3_Pin GPIO_PIN_10
-#define yellow3_GPIO_Port GPIOA
-#define red4_Pin GPIO_PIN_11
-#define red4_GPIO_Port GPIOA
-#define green4_Pin GPIO_PIN_12
-#define green4_GPIO_Port GPIOA
-#define yellow4_Pin GPIO_PIN_13
-#define yellow4_GPIO_Port GPIOA
-#define d_Pin GPIO_PIN_3
-#define d_GPIO_Port GPIOB
-#define e_Pin GPIO_PIN_4
-#define e_GPIO_Port GPIOB
-#define f_Pin GPIO_PIN_5
-#define f_GPIO_Port GPIOB
-#define g_Pin GPIO_PIN_6
-#define g_GPIO_Port GPIOB
+#define led1_Pin GPIO_PIN_2
+#define led1_GPIO_Port GPIOA
+#define led2_Pin GPIO_PIN_3
+#define led2_GPIO_Port GPIOA
+#define led3_Pin GPIO_PIN_4
+#define led3_GPIO_Port GPIOA
+#define led4_Pin GPIO_PIN_5
+#define led4_GPIO_Port GPIOA
+#define led5_Pin GPIO_PIN_6
+#define led5_GPIO_Port GPIOA
+#define led6_Pin GPIO_PIN_7
+#define led6_GPIO_Port GPIOA
+#define led7_Pin GPIO_PIN_8
+#define led7_GPIO_Port GPIOA
+#define led8_Pin GPIO_PIN_9
+#define led8_GPIO_Port GPIOA
+#define led9_Pin GPIO_PIN_10
+#define led9_GPIO_Port GPIOA
+#define led10_Pin GPIO_PIN_11
+#define led10_GPIO_Port GPIOA
+#define led11_Pin GPIO_PIN_12
+#define led11_GPIO_Port GPIOA
+#define led12_Pin GPIO_PIN_13
+#define led12_GPIO_Port GPIOA
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
