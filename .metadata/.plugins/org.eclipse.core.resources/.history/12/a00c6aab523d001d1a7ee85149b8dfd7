@@ -91,71 +91,22 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+  int status_red = 1;
+  int count_red = 0;
+  int status_yellow = 0;
+  int count_yellow = 1;
+  int status_green = 0;
+  int count_green = 1;
   /* USER CODE BEGIN WHILE */
   while (1)
-    {
-  	  HAL_GPIO_WritePin (green1_GPIO_Port , green1_Pin, GPIO_PIN_RESET);
-  	  HAL_GPIO_WritePin (yellow1_GPIO_Port , yellow1_Pin, GPIO_PIN_RESET);
-  	  HAL_GPIO_WritePin (green2_GPIO_Port , green2_Pin, GPIO_PIN_SET); //Green 2 on
-  	  HAL_GPIO_WritePin (yellow2_GPIO_Port , yellow2_Pin, GPIO_PIN_RESET);
-  	  HAL_GPIO_WritePin (green3_GPIO_Port , green3_Pin, GPIO_PIN_RESET);
-  	  HAL_GPIO_WritePin (yellow3_GPIO_Port , yellow3_Pin, GPIO_PIN_RESET);
-  	  HAL_GPIO_WritePin (red2_GPIO_Port , red2_Pin, GPIO_PIN_RESET);
-  	  HAL_GPIO_WritePin (red4_GPIO_Port , red4_Pin, GPIO_PIN_RESET);
-  	  HAL_GPIO_WritePin (green4_GPIO_Port , green4_Pin, GPIO_PIN_SET); //Green4 on
-  	  HAL_GPIO_WritePin (yellow4_GPIO_Port , yellow4_Pin, GPIO_PIN_RESET);
-  	  //Red13-on
-  	  HAL_GPIO_WritePin (red1_GPIO_Port , red1_Pin, GPIO_PIN_SET);
-  	  HAL_GPIO_WritePin (red3_GPIO_Port , red3_Pin, GPIO_PIN_SET);
-  	  HAL_Delay(5000);
+  {
+    /* USER CODE END WHILE */
 
-  	  //Next state
-  	  HAL_GPIO_WritePin (green1_GPIO_Port , green1_Pin, GPIO_PIN_RESET);
-  	  HAL_GPIO_WritePin (yellow1_GPIO_Port , yellow1_Pin, GPIO_PIN_RESET); //yellow1 OFF
-  	  HAL_GPIO_WritePin (green2_GPIO_Port , green2_Pin, GPIO_PIN_RESET);
-  	  HAL_GPIO_WritePin (yellow2_GPIO_Port , yellow2_Pin, GPIO_PIN_SET); //yellow2 on
-  	  HAL_GPIO_WritePin (green3_GPIO_Port , green3_Pin, GPIO_PIN_RESET);
-  	  HAL_GPIO_WritePin (yellow3_GPIO_Port , yellow3_Pin, GPIO_PIN_RESET); //yellow3 OFF
-  	  HAL_GPIO_WritePin (red2_GPIO_Port , red2_Pin, GPIO_PIN_RESET);
-  	  HAL_GPIO_WritePin (red4_GPIO_Port , red4_Pin, GPIO_PIN_RESET);
-  	  HAL_GPIO_WritePin (green4_GPIO_Port , green4_Pin, GPIO_PIN_RESET);
-  	  HAL_GPIO_WritePin (yellow4_GPIO_Port , yellow4_Pin, GPIO_PIN_SET); // yellow4 on
-  	  HAL_GPIO_WritePin (red1_GPIO_Port , red1_Pin, GPIO_PIN_SET);
-  	  HAL_GPIO_WritePin (red3_GPIO_Port , red3_Pin, GPIO_PIN_SET);
-  	  HAL_Delay(2000);
-
-  	  //Next State
-  	  HAL_GPIO_WritePin (green1_GPIO_Port , green1_Pin, GPIO_PIN_SET); //green 1 on
-  	  HAL_GPIO_WritePin (yellow1_GPIO_Port , yellow1_Pin, GPIO_PIN_RESET);
-  	  HAL_GPIO_WritePin (green2_GPIO_Port , green2_Pin, GPIO_PIN_RESET);
-  	  HAL_GPIO_WritePin (yellow2_GPIO_Port , yellow2_Pin, GPIO_PIN_RESET);
-  	  HAL_GPIO_WritePin (green3_GPIO_Port , green3_Pin, GPIO_PIN_SET); // green 3 on
-  	  HAL_GPIO_WritePin (yellow3_GPIO_Port , yellow3_Pin, GPIO_PIN_RESET);
-  	  HAL_GPIO_WritePin (red2_GPIO_Port , red2_Pin, GPIO_PIN_SET); //red 2 on
-  	  HAL_GPIO_WritePin (red4_GPIO_Port , red4_Pin, GPIO_PIN_SET);// red 4 on
-  	  HAL_GPIO_WritePin (green4_GPIO_Port , green4_Pin, GPIO_PIN_RESET);
-  	  HAL_GPIO_WritePin (yellow4_GPIO_Port , yellow4_Pin, GPIO_PIN_RESET);
-  	  HAL_GPIO_WritePin (red1_GPIO_Port , red1_Pin, GPIO_PIN_RESET);
-  	  HAL_GPIO_WritePin (red3_GPIO_Port , red3_Pin, GPIO_PIN_RESET);
-  	  HAL_Delay(5000);
-
-  	  //FINAL
-  	  HAL_GPIO_WritePin (green1_GPIO_Port , green1_Pin, GPIO_PIN_RESET);
-  	  HAL_GPIO_WritePin (yellow1_GPIO_Port , yellow1_Pin, GPIO_PIN_SET); //yellow1 on
-  	  HAL_GPIO_WritePin (green2_GPIO_Port , green2_Pin, GPIO_PIN_RESET);
-  	  HAL_GPIO_WritePin (yellow2_GPIO_Port , yellow2_Pin, GPIO_PIN_RESET); //yellow2 OFF
-  	  HAL_GPIO_WritePin (green3_GPIO_Port , green3_Pin, GPIO_PIN_RESET);
-  	  HAL_GPIO_WritePin (yellow3_GPIO_Port , yellow3_Pin, GPIO_PIN_SET); //yellow3 on
-  	  HAL_GPIO_WritePin (red2_GPIO_Port , red2_Pin, GPIO_PIN_SET);
-  	  HAL_GPIO_WritePin (red4_GPIO_Port , red4_Pin, GPIO_PIN_SET);
-  	  HAL_GPIO_WritePin (green4_GPIO_Port , green4_Pin, GPIO_PIN_RESET);
-  	  HAL_GPIO_WritePin (yellow4_GPIO_Port , yellow4_Pin, GPIO_PIN_RESET); // yellow4 OFF
-  	  HAL_GPIO_WritePin (red1_GPIO_Port , red1_Pin, GPIO_PIN_RESET);
-  	  HAL_GPIO_WritePin (red3_GPIO_Port , red3_Pin, GPIO_PIN_RESET);
-  	  HAL_Delay(2000);
-    }
-    /* USER CODE END 3 */
+    /* USER CODE BEGIN 3 */
+	  HAL_Delay(1000);
   }
+  /* USER CODE END 3 */
+}
 
 /**
   * @brief System Clock Configuration

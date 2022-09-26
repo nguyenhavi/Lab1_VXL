@@ -146,8 +146,8 @@ int main(void)
   	  HAL_GPIO_WritePin (yellow2_GPIO_Port , yellow2_Pin, GPIO_PIN_RESET); //yellow2 OFF
   	  HAL_GPIO_WritePin (green3_GPIO_Port , green3_Pin, GPIO_PIN_RESET);
   	  HAL_GPIO_WritePin (yellow3_GPIO_Port , yellow3_Pin, GPIO_PIN_SET); //yellow3 on
-  	  HAL_GPIO_WritePin (red2_GPIO_Port , red2_Pin, GPIO_PIN_SET);
-  	  HAL_GPIO_WritePin (red4_GPIO_Port , red4_Pin, GPIO_PIN_SET);
+  	  HAL_GPIO_WritePin (red2_GPIO_Port , red2_Pin, GPIO_PIN_RESET);
+  	  HAL_GPIO_WritePin (red4_GPIO_Port , red4_Pin, GPIO_PIN_RESET);
   	  HAL_GPIO_WritePin (green4_GPIO_Port , green4_Pin, GPIO_PIN_RESET);
   	  HAL_GPIO_WritePin (yellow4_GPIO_Port , yellow4_Pin, GPIO_PIN_RESET); // yellow4 OFF
   	  HAL_GPIO_WritePin (red1_GPIO_Port , red1_Pin, GPIO_PIN_RESET);
