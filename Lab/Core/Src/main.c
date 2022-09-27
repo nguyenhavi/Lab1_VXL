@@ -107,7 +107,7 @@ int main(void)
   	  //Red13-on
   	  HAL_GPIO_WritePin (red1_GPIO_Port , red1_Pin, GPIO_PIN_SET);
   	  HAL_GPIO_WritePin (red3_GPIO_Port , red3_Pin, GPIO_PIN_SET);
-  	  HAL_Delay(5000);
+  	  HAL_Delay(3000);
 
   	  //Next state
   	  HAL_GPIO_WritePin (green1_GPIO_Port , green1_Pin, GPIO_PIN_RESET);
@@ -137,7 +137,7 @@ int main(void)
   	  HAL_GPIO_WritePin (yellow4_GPIO_Port , yellow4_Pin, GPIO_PIN_RESET);
   	  HAL_GPIO_WritePin (red1_GPIO_Port , red1_Pin, GPIO_PIN_RESET);
   	  HAL_GPIO_WritePin (red3_GPIO_Port , red3_Pin, GPIO_PIN_RESET);
-  	  HAL_Delay(5000);
+  	  HAL_Delay(3000);
 
   	  //FINAL
   	  HAL_GPIO_WritePin (green1_GPIO_Port , green1_Pin, GPIO_PIN_RESET);
