@@ -92,7 +92,7 @@ int main(void)
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   int hour = 11;
-  int min = 34;
+  int min = 59;
   int sec = 50;
    setNumberOnClock(hour);
    setNumberOnClock(min/5);
@@ -104,12 +104,9 @@ int main(void)
  		  if(min < 60){
  			  if(hour < 12){
  				  sec = sec + 1;
- 				  if(sec % 5 == 0){clearNumberOnClock((sec-1)/5);}
  				  if(sec >= 60){
  					  min = min + 1;
- 					  if(min % 5 == 0){clearNumberOnClock((min-1)/5);}
  					  if(min >= 60){
- 						  clearNumberOnClock(hour);
  						  hour = hour + 1;
  						  if(hour >= 12){hour = 0;}
  						  min = 0;
@@ -138,7 +135,7 @@ int main(void)
  	  else{
  		  sec = 0;
  		  min = min + 1;
- 		  if(min % 5 == 0) clearNumberOnClock((min-1)/5);
+ 		  if(min % 5 == 0) clearNumberOnClock(min/5);
  		  if(min >= 60){
  			  clearNumberOnClock(hour);
  			  hour = hour + 1;

@@ -92,7 +92,7 @@ int main(void)
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   int hour = 11;
-  int min = 34;
+  int min = 59;
   int sec = 50;
    setNumberOnClock(hour);
    setNumberOnClock(min/5);
