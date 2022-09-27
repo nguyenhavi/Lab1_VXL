@@ -492,3 +492,34 @@ Finished building: Lab.bin
 Finished building: Lab.hex
  
  
+12:39:21 **** Incremental Build of configuration Debug for project Lab ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:99:3: warning: implicit declaration of function 'clearAllClock' [-Wimplicit-function-declaration]
+   99 |   clearAllClock();
+      |   ^~~~~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:171:6: warning: conflicting types for 'clearAllClock'
+  171 | void clearAllClock(){
+      |      ^~~~~~~~~~~~~
+../Core/Src/main.c:99:3: note: previous implicit declaration of 'clearAllClock' was here
+   99 |   clearAllClock();
+      |   ^~~~~~~~~~~~~
+arm-none-eabi-gcc -o "Lab.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\VXLLab1\Lab\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab.elf
+ 
+arm-none-eabi-size   Lab.elf 
+arm-none-eabi-objdump -h -S  Lab.elf  > "Lab.list"
+arm-none-eabi-objcopy  -O ihex  Lab.elf  "Lab.hex"
+arm-none-eabi-objcopy  -O binary  Lab.elf  "Lab.bin"
+   text	   data	    bss	    dec	    hex	filename
+   4720	     20	   1572	   6312	   18a8	Lab.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab.bin
+Finished building: Lab.hex
+ 
+ 
+Finished building: Lab.list
+ 
